@@ -1,0 +1,17 @@
+# Terraform working data
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local-only variable files
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Keep reviewed examples tracked
+!examples/**/*.tfvars.example
+!examples/**/*.env.example
